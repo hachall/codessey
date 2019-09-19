@@ -1,0 +1,80 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.parallax-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100000;
+}
+
+.parallax-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.home-left {
+  z-index: 100;
+  width: 450px;
+  margin-left: 40px;
+}
+.home-right {
+  position: absolute;
+  right: 0;
+  z-index: 5;
+}
+.home-img {
+  height: 700px;
+  z-index: -100;
+  // object-fit: cover;
+}
+.home-title {
+  // z-index: 10;
+}
+.home-title-box {
+  margin-bottom: 70px;
+}
+.home-title {
+  color: #3e4478;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.orange-bracket {
+  color: #FB9B11;
+  font-size: 45px;
+}
+.bracket-offset {
+  margin-left: -25px;
+}
+.home-desc {
+  margin-top: 10px;
+  color: #3e4478;
+  font-size: 16px;
+}
+.home-btns {
+  margin-top: 20px;
+  display: flex;
+}
+.home-btn {
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.home-pink {
+  color: #ee3b7e;
+  border: 2px solid #ee3b7e;
+}
+.home-orange {
+  color: #FB9B11;
+  border: 2px solid #FB9B11;
+}
