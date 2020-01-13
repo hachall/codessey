@@ -5,6 +5,8 @@
   position: relative;
   display: flex;
   align-items: center;
+
+
 }
 
 .parallax-container {
@@ -24,8 +26,8 @@
 
 .home-left {
   z-index: 100;
-  width: 450px;
-  margin-left: 40px;
+  width: 505px;
+  margin-left: 80px;
 }
 .home-right {
   position: absolute;
@@ -41,40 +43,272 @@
   // z-index: 10;
 }
 .home-title-box {
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 .home-title {
   color: #3e4478;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 1.2;
+  font-size: 63px;
+  line-height: 1.1;
 }
 .orange-bracket {
   color: #FB9B11;
-  font-size: 45px;
+  font-size: 70px;
+}
+.orange {
+  color: #FB9B11;
 }
 .bracket-offset {
-  margin-left: -25px;
+  margin-left: -45px;
 }
 .home-desc {
   margin-top: 10px;
   color: #3e4478;
-  font-size: 16px;
+  font-size: 24px;
 }
 .home-btns {
   margin-top: 20px;
   display: flex;
+
+  &:hover a {
+    text-decoration: none;
+  }
 }
 .home-btn {
+  font-size: 16px;
   margin-right: 15px;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  &:hover {
+    text-decoration: none;
+    transform: scale(1.06);
+  }
 }
 .home-pink {
-  color: #ee3b7e;
+  background-color: #ee3b7e;
+  color: white;
+  // background-color: white;
+  // color: #ee3b7e;
   border: 2px solid #ee3b7e;
+  &:hover {
+    // background-color: #ee3b7e;
+    // color: white;
+    background-color: white;
+    color: #ee3b7e;
+  }
 }
 .home-orange {
-  color: #FB9B11;
+  background-color: #FB9B11;
+  color: white;
+  // background-color: white;
+  // color: #FB9B11;
+
   border: 2px solid #FB9B11;
+  &:hover {
+    // background-color: #FB9B11;
+    // color: white;
+    background-color: white;
+    color: #FB9B11;
+  }
+}
+.home-blue {
+  color: #3e4478;
+  border: 2px solid #3e4478;
+}
+.pink-text {
+  color: #ee3b7e;
+}
+.blue-text {
+  color: #3e4478;
+}
+.bold-text {
+  font-weight: bold;
+}
+.home-section-2 {
+  margin-top: -100px;
+  min-height: 100vh;
+  width: 100%;
+
+}
+.section-2-content {
+  width: 100%;
+  background-color: #FDECF2;
+  height: 500px;
+  margin-top: -10px;
+}
+.section-2-box {
+  // overflow: hidden;
+  height: 95%;
+  width: 70%;
+  background-color: white;
+  margin-left: 40px;
+  display: flex;
+  // margin-top: -50px;
+  z-index: 20;
+  border-radius: 3px;
+  box-shadow: 3px 3px 6px rgba(62,68,120,0.1);
+  position: absolute;
+  left: 0;
+  text-align: center;
+  color: #3e4478;
+  ul {
+    list-style: none;
+    text-align: left;/* Remove default bullets */
+  }
+
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #ee3b7e; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+  li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+.section-2-left {
+  width: 75% !important;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-2-right {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+.section-2-left-inner {
+  font-size: 30px;
+  padding-right: 15px;
+  padding-left: 25px;
+  height: 80%;
+  border-right: 2px solid #3e4478;
+  display: flex;
+  align-items: center;
+
+}
+
+.pic-box {
+  width: 43%;
+  height: 100%;
+  padding: 13px 0 10px 10px;
+}
+.section-2-img {
+  margin-top: -60px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.section-2-content {
+  position: relative;
+}
+.section-2-img-box {
+  height: 115%;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  text-align: center;
+}
+.section-3-title {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: #3e4478;
+  font-weight: bold;
+}
+.home-section-3 {
+  margin-top: -200px;
+  min-height: calc(100vh - 170px);
+  display: flex;
+  flex-flow: column;
+}
+
+
+.home-section-4 {
+  margin-top: -60px;
+  height: 100vh;
+  padding: 10% 20%;
+}
+
+.section-4-box {
+  // margin-top: 70px;
+  height: 100%;
+  width: 100%;
+  // background-color: red;
+}
+
+.or-title {
+  color: #3e4478;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.pink-font {
+  font-weight: bold;
+  color: #ee3b7e;
+}
+.teaching-options {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.alt-teaching {
+  width: 180px;
+  text-align: center;
+}
+.teaching-img-box {
+  height: 120px;
+  width: 60%;
+  background-color: #3e4478;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30% 0 30% 0;
+}
+.teaching-icon {
+  color: #FB9B11;
+  font-size: 60px;
+}
+.teaching-text {
+  color: #3e4478;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.arrow-section {
+  width: 100%;
+  text-align: right;
+}
+.curved-arrow {
+  margin-right: 80px;
+  margin-top: 15px;
+  width: 120px;
+  height: 120px;
+  transform: scaleY(-1);
+}
+
+.enquire-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &:hover a {
+    text-decoration: none;
+  }
+}
+
+.home-bottom-btn {
+  margin-top: -56px;
+  font-size: 30px;
+  z-index: 10000;
 }

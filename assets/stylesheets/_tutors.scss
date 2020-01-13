@@ -1,0 +1,118 @@
+.tutors-page {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  margin-top: 70px;
+}
+
+.some-page-wrapper {
+  margin: 40px;
+  // background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  // min-height: 100px;
+}
+.tutor-box {
+  text-align: center;
+  margin-top: 20px;
+}
+.tutor-img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.tutor-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #3e4478;
+  margin-bottom: -100px;
+  background-size: cover;
+  background-position: center;
+}
+.main-tutor-box {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px !important;
+  border: 3px solid #3e4478;
+  margin: 0 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 4px rgba(62,68,120, 0.4)
+}
+.tutor-name {
+  margin-top: 20px;
+  color: #3e4478;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: white;
+  opacity: 0.9;
+}
+.pink-bracket {
+  color: #ee3b7e;
+}
+.tutor-box-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 13px;
+}
+.tutor-bio {
+  flex-grow: 1;
+  margin-bottom: 20px;
+  min-height: 150px;
+}
+.tutor-section {
+  text-align: left;
+  width: 100%;
+  color: #3e4478;
+
+}
+.section-title {
+  border-bottom: 1px solid #3e4478;
+  margin-bottom: 5px;
+
+}
+.tutor-education {
+  margin-top: 50px;
+}
+.education-date {
+  color: #FB9B11;
+}
+.skill-logo {
+  height: 35px;
+  // background-color: red;
+  padding: 10%;
+}
+.skill-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.tutor-skills {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+

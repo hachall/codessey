@@ -10,7 +10,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "css-loader": "^1.0.1",
+    "css-loader": "^3.2.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
@@ -27,12 +27,20 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "history": "^4.9.0",
-    "react": "16.2",
+    "bootstrap": "^4.3.1",
+    "history": "^4.10.1",
+    "particlesjs": "^2.2.3",
+    "react": "16.9",
     "react-dom": "^16.9.0",
     "react-fullpage": "^0.1.19",
+    "react-icons": "^3.8.0",
+    "react-particles-js": "^2.7.0",
+    "react-router": "^5.1.2",
     "react-router-dom": "^5.0.1",
-    "reactstrap": "^8.0.1"
+    "react-slick": "^0.25.2",
+    "reactstrap": "^8.1.1",
+    "read-more-react": "^1.0.9",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",

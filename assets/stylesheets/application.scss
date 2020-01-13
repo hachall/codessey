@@ -1,5 +1,14 @@
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+
 @import "navbar";
 @import "home";
+@import "carousel";
+@import "course";
+@import "footer";
+@import "network";
+@import "contact";
+@import "tutors";
+@import "coming_soon";
 
 // @font-face {
 //   font-family: 'Gilroy-Bold';
@@ -8,8 +17,8 @@
 
 body {
   font-family: Helvetica;
-  // background-color: white;
-  background-color: #f1f2f2;
+  background-color: white;
+  // background-color: #f1f2f2;
 }
 
 #root {
@@ -24,3 +33,6 @@ body {
 .container {
   margin: 0 20px;
 }
+
+
+

@@ -1,0 +1,50 @@
+.footer {
+  margin-top: -100px;
+}
+.footer-rest {
+  height: 100px;
+  width: 100%;
+  background-color: #3e4478;
+  margin-top: -60px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  margin-top: -7px;
+  margin-right: 15px;
+  height: 30px;
+  width: auto;
+}
+.footer-left {
+  display: flex;
+  margin-top: -20px;
+  margin-left: 20px;
+
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      color: #ee3b7e;
+      text-decoration: none;
+    }
+  }
+}
+.footer-connect {
+  color: white;
+  margin-right: 25px;
+}
+.footer-icon {
+  margin-right: 5px;
+  cursor: pointer;
+  &:hover {
+    color: #ee3b7e;
+  }
+}
+.footer-right {
+  font-size: 10px;
+  color: white;
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
