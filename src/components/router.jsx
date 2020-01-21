@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Redirect, Switch, withRouter } from 'react-router-dom';
 
 
-import DesktopNav from './desktop_nav'
+import NavBar from './navbar'
+import Footer from './footer'
 import ComingSoon from './coming_soon'
 
 import routes from './routes'
@@ -36,10 +37,11 @@ class Router extends Component {
     return(
       <BrowserRouter>
         {/*<ComingSoon />*/}
-        <DesktopNav/>
+        <NavBar/>
           <Switch>
             {routeComponents}
           </Switch>
+        {/*<Footer/>*/}
       </BrowserRouter>
 
     )

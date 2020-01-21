@@ -16,7 +16,7 @@ class Footer extends Component {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3e4478" fill-opacity="1" d="M0,96L120,122.7C240,149,480,203,720,213.3C960,224,1200,192,1320,176L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
         <div className="footer-rest">
           <div className="footer-left">
-            <img className="footer-logo" src="assets/images/Codessey-Transparency2.png" alt=""/>
+            <img className="footer-logo" src="https://codessey.s3.eu-west-2.amazonaws.com/logos/Codessey-Transparency2.png" alt=""/>
             <div className="footer-connect">
               <h4>Links</h4>
 

@@ -1,11 +1,16 @@
 .network-background {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
   position: relative;
 
+}
+@media (min-width: 768px) {
+  .network-background {
+    align-items: center;
+  }
 }
 .particle-background {
   height: 100vh;
@@ -14,7 +19,7 @@
   display: block;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: -1000;
 }
 
 .grid-wrapper {
@@ -141,6 +146,64 @@
   filter: grayscale(100%);
 }
 
+.grid-text {
+  text-align: center;
+}
+.grid-button {
+  text-align: center;
+  margin: 0 20px;
+}
+@media (min-width: 768px) {
+  .grid-button {
+    margin: 0;
+  }
+}
+.network-mob {
+  margin-left: 10px;
+}
+.mob-parent {
+  margin-top: 10px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(7, 1fr);
+grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.mob-div1 { grid-area: 1 / 1 / 2 / 2; }
+.mob-div2 { grid-area: 1 / 2 / 2 / 3; }
+.mob-div3 { grid-area: 1 / 3 / 2 / 4; }
+.mob-div4 { grid-area: 1 / 4 / 2 / 5; }
+.mob-div5 { grid-area: 2 / 1 / 3 / 2; }
+.mob-div6 { grid-area: 2 / 2 / 3 / 3; }
+.mob-div7 { grid-area: 2 / 3 / 3 / 4; }
+.mob-div8 { grid-area: 2 / 4 / 3 / 5; }
+.mob-div9 { grid-area: 3 / 1 / 4 / 2; }
+.mob-div10 { grid-area: 3 / 2 / 4 / 3; }
+.mob-div11 { grid-area: 3 / 3 / 4 / 4; }
+.mob-div12 { grid-area: 3 / 4 / 4 / 5; }
+.mob-div13 { grid-area: 4 / 1 / 5 / 2; }
+.mob-div14 { grid-area: 4 / 2 / 5 / 3; }
+.mob-div15 { grid-area: 4 / 3 / 5 / 4; }
+.mob-div16 { grid-area: 4 / 4 / 5 / 5; }
+.mob-div17 { grid-area: 5 / 1 / 6 / 2; }
+.mob-div18 { grid-area: 5 / 2 / 6 / 3; }
+.mob-div19 { grid-area: 5 / 3 / 6 / 4; }
+.mob-div20 { grid-area: 5 / 4 / 6 / 5; }
+.mob-div21 { grid-area: 6 / 1 / 7 / 2; }
+.mob-div22 { grid-area: 6 / 2 / 7 / 3; }
+.mob-div23 { grid-area: 6 / 3 / 7 / 4; }
+.mob-div24 { grid-area: 6 / 4 / 7 / 5; }
+.mob-div25 { grid-area: 7 / 1 / 8 / 2; }
+.mob-div26 { grid-area: 7 / 2 / 8 / 3; }
+.mob-div27 { grid-area: 7 / 3 / 8 / 4; }
+.mob-div28 { grid-area: 7 / 4 / 8 / 5; }
+
+.mob-avatar {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+}
 
 
 

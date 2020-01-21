@@ -44,12 +44,17 @@
 .main-tutor-box {
   display: flex;
   flex-direction: column;
-  min-height: 500px !important;
+  min-height: 619px !important;
   border: 3px solid #3e4478;
   margin: 0 20px;
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 2px 2px 4px rgba(62,68,120, 0.4)
+}
+@media (min-width: 1025px) {
+  .main-tutor-box {
+    min-height: 500px !important;
+  }
 }
 .tutor-name {
   margin-top: 20px;
@@ -107,7 +112,21 @@
   margin-bottom: 10px;
 }
 
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
 
+.container {
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+}
 
 
 

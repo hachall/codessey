@@ -34,7 +34,7 @@ class Home1 extends Component {
         </div>
 
         <div className="home-right">
-          <img className="home-img" src="assets/images/undraw_pair_programming_njlp.svg" alt=""/>
+          <img className="home-img" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_pair_programming_njlp.svg" alt=""/>
         </div>
 
       </div>

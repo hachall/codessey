@@ -1,11 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react'
 
-import Home2Desktop from './home2_desktop'
-import Home2Mobile from './home2_mobile'
+import DesktopNav from './nav_desktop'
+import NavMobile from './nav_mobile'
 
-class Home2 extends Component {
-
-  constructor() {
+class NavBar extends Component {
+    constructor() {
       super();
       this.state = {
         width: window.innerWidth,
@@ -30,21 +29,19 @@ class Home2 extends Component {
 
   render() {
     const { width } = this.state;
-    const isMobile = width <= 700;
-
-      if (isMobile) {
-        return (
-          <Home2Mobile/>
-        );
-      } else {
-        return (
-          <Home2Desktop/>
-        );
-      }
+    const isMobile = width <= 740;
 
 
-
+    if (isMobile) {
+      return (
+        <NavMobile />
+      );
+    } else {
+      return (
+        <DesktopNav />
+      );
+    }
   }
 }
 
-export default Home2;
+export default NavBar;

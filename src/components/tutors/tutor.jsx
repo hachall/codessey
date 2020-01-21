@@ -9,7 +9,7 @@ class Tutor extends Component {
     return (
            <div className='tutor-box'>
               <div className="tutor-img-wrapper">
-                <div style={{backgroundImage: `url(${this.props.data.img_url})`}} className="tutor-img"></div>
+                <div style={{backgroundImage: `url(${this.props.data.img_url})`}} className="tutor-img bnw"></div>
               </div>
 
 
@@ -50,9 +50,9 @@ class Tutor extends Component {
                             {dummy_array.map((index) => {
                               let skill = skill_row[index]
                               return (
-                                <div className="column">
+                                <div className="column" key={skill}>
                                   <div className="skill-logo">
-                                    {(index < row_num) ? <img className="skill-img" data-toggle="tooltip" title={skill} src={`assets/images/skill_logos/${logos[skill]}`} alt=""/> : ""}
+                                    {(index < row_num) ? <img className="skill-img" data-toggle="tooltip" title={skill} src={`${logos[skill]}`} alt=""/> : ""}
                                   </div>
                                 </div>
                               )

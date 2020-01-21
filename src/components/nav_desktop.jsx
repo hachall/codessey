@@ -38,10 +38,10 @@ class DesktopNav extends Component {
   render() {
     const navbar_classes = (this.state.altstyle) ? "desktop-nav alt-nav-background" : "desktop-nav"
     let link_classes = "nav-link norm-colour borderLeftRight"
-    let img_base = "assets/images/Codessey-Transparency.png"
+    let img_base = "https://codessey.s3.eu-west-2.amazonaws.com/logos/Codessey-Transparency.png"
     if (this.props.location.pathname == '/contact') {
       link_classes = "nav-link alt-colour borderLeftRight"
-      img_base = "assets/images/Codessey-Transparency2.png"
+      img_base = "https://codessey.s3.eu-west-2.amazonaws.com/logos/Codessey-Transparency2.png"
     }
 
     return(

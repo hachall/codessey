@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 
 // import MyForm from './form'
 
+
 class Contact extends Component {
   constructor(props) {
     super(props);

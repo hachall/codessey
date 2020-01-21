@@ -26,7 +26,6 @@ class Course extends Component {
       let position7 = document.getElementById(`lesson-7`).offsetTop - offset;
       let position8 = document.getElementById(`lesson-8`).offsetTop - offset;
       let position9 = document.getElementById(`lesson-9`).offsetTop - offset;
-      console.log(position1);
 
 
       box.addEventListener('scroll', () => {
@@ -110,18 +109,18 @@ class Course extends Component {
                   </div>
                 )
               })}
-              <img className="course-img" id="course-img-1" src="assets/images/undraw_shared_workspace_hwky.svg" alt=""/>
-              <img className="course-img" id="course-img-2" src="assets/images/undraw_collaborating_g8k8.svg" alt=""/>
-              <img className="course-img" id="course-img-3" src="assets/images/undraw_completed_steps_yurw.svg" alt=""/>
-              <img className="course-img" id="course-img-4" src="assets/images/undraw_online_everywhere_cd90.svg" alt=""/>
-              <img className="course-img" id="course-img-5" src="assets/images/undraw_work_together_h63l.svg" alt=""/>
-              <img className="course-img" id="course-img-6" src="assets/images/undraw_researching_22gp.svg" alt=""/>
-              <img className="course-img" id="course-img-7" src="assets/images/undraw_project_feedback_2s92.svg" alt=""/>
-              <img className="course-img" id="course-img-8" src="assets/images/undraw_hacker_mindset_gjwq.svg" alt=""/>
-              <img className="course-img" id="course-img-9" src="assets/images/undraw_code_typing_7jnv.svg" alt=""/>
-              <img className="course-img" id="course-img-10" src="assets/images/undraw_dev_focus_b9xo.svg" alt=""/>
-              <img className="course-img" id="course-img-11" src="assets/images/undraw_dev_productivity_umsq.svg" alt=""/>
-              <img className="course-img" id="course-img-12" src="assets/images/undraw_our_solution_htvp.svg" alt=""/>
+              <img className="course-img" id="course-img-1" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_shared_workspace_hwky.svg" alt=""/>
+              <img className="course-img" id="course-img-2" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_collaborating_g8k8.svg" alt=""/>
+              <img className="course-img" id="course-img-3" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_completed_steps_yurw.svg" alt=""/>
+              <img className="course-img" id="course-img-4" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_online_everywhere_cd90.svg" alt=""/>
+              <img className="course-img" id="course-img-5" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_work_together_h63l.svg" alt=""/>
+              <img className="course-img" id="course-img-6" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_researching_22gp.svg" alt=""/>
+              <img className="course-img" id="course-img-7" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_project_feedback_2s92.svg" alt=""/>
+              <img className="course-img" id="course-img-8" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_hacker_mindset_gjwq.svg" alt=""/>
+              <img className="course-img" id="course-img-9" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_code_typing_7jnv.svg" alt=""/>
+              <img className="course-img" id="course-img-10" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_dev_focus_b9xo.svg" alt=""/>
+              <img className="course-img" id="course-img-11" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_dev_productivity_umsq.svg" alt=""/>
+              <img className="course-img" id="course-img-12" src="https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_our_solution_htvp.svg" alt=""/>
             </div>
           </div>
         </div>

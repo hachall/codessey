@@ -4,45 +4,35 @@ import Slider from "react-slick";
 const items = [
   {
     'title': "AI & Machine Learning",
-    'img': "undraw_software_engineer_lvl5.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_software_engineer_lvl5.svg"
+      },{
     'title': "Game Development",
-    'img': "undraw_augmented_reality_heuy.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_augmented_reality_heuy.svg"
+      },{
     'title': "Data Science",
-    'img': "undraw_all_the_data_h4ki.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_all_the_data_h4ki.svg"
+      },{
     'title': "Web/Mobile Development",
-    'img': "undraw_prototyping_process_rswj.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_prototyping_process_rswj.svg"
+      },{
     'title': "Computational Finance",
-    'img': "undraw_financial_data_es63.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_financial_data_es63.svg"
+      },{
     'title': "Robotics",
-    'img': "undraw_robotics_kep0.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_robotics_kep0.svg"
+      },{
     'title': "Tech Product Management",
-    'img': "undraw_product_teardown_elol.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_product_teardown_elol.svg"
+      },{
     'title': "Networks & Systems",
-    'img': "undraw_connected_world_wuay.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_connected_world_wuay.svg"
+      },{
     'title': "Tech Journalism",
-    'img': "undraw_content_creator_xeju.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  },{
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_content_creator_xeju.svg"
+      },{
     'title': "Ethical Hacking",
-    'img': "undraw_hacker_mind_6y85.svg",
-    'text': "sjdhfasdhf ahsfp hsadk ashdf "
-  }
+    'img': "https://codessey.s3.eu-west-2.amazonaws.com/graphics/undraw_hacker_mind_6y85.svg"
+      }
 
 ]
 
@@ -66,7 +56,7 @@ class SimpleSlider extends React.Component {
         <div className="career" key={item.title}>
           <h3>{item.title}</h3>
           <div className="career-img-box">
-            <img className="career-img" src={`assets/images/${item.img}`} alt=""/>
+            <img className="career-img" src={`${item.img}`} alt=""/>
           </div>
           {/*<p>{item.text}</p>*/}
         </div>

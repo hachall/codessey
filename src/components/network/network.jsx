@@ -2,6 +2,9 @@ import React, {Component} from 'react'
 import { Link} from 'react-router-dom';
 import Particles from 'react-particles-js';
 
+import NetworkDesktop from './network_desktop'
+import NetworkMob from './network_mob'
+
 const params = {
   "particles": {
     "number": {
@@ -116,65 +119,36 @@ const hamish_url = "assets/images/tutoring_photo.jpg"
 const laura_url = "assets/images/laura_photo.png"
 
 class Network extends Component {
+  constructor() {
+    super();
+    this.state = {
+      width: window.innerWidth,
+    };
+  }
+
+  componentWillMount() {
+    window.addEventListener('resize', this.handleWindowSizeChange);
+  }
+
+  // make sure to remove the listener
+  // when the component is not mounted anymore
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleWindowSizeChange);
+  }
+
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  };
+
 
   render() {
+    const { width } = this.state;
+    const isMobile = width <= 700;
+
     return (
-      <div>
       <div className="network-background">
         <Particles className="particle-background" width="100%" height="100%" params={params}/>
-        <div className="grid-wrapper">
-          <div className="parent">
-            <div className="grid-centre div1">
-              <div className="centre-inner">
-                <div className="grid-text">
-                  Have any tech related <span className="pink-text bold-text">ideas</span>, projects or <span className="blue-text">questions</span>?
-                </div>
-                <div className="grid-text">
-                  Need any guidance or advice?
-                </div>
-                <Link to="/contact">
-                  <div className="grid-button">Drop us a message!</div>
-                </Link>
-              </div>
-            </div>
-            <div className="net-avatar div2"> </div>
-            <div className="net-avatar div2"></div>
-            <div className="net-avatar div3"> </div>
-            <div className="net-avatar div4"> </div>
-            <div className="net-avatar div5"> </div>
-            <div className="net-avatar div6 "></div>
-            <div className="net-avatar div7"> </div>
-            <div className="net-avatar div8"> </div>
-            <div className="net-avatar div9"> </div>
-            <div className="net-avatar div10"> </div>
-            <div className="net-avatar div11"> </div>
-            <div className="net-avatar div12"> </div>
-            <div className="net-avatar div13"> </div>
-            <div className="net-avatar div14"> </div>
-            <div className="net-avatar div15"> </div>
-            <div style={{backgroundImage: `url(${hamish_url})`}} className="net-avatar div16">
-               <div className="overlay">
-                Oxford Engineer & Imperial Computer Scientist
-               </div>
-            </div>
-            <div className="net-avatar div17"> </div>
-            <div className="net-avatar div18"> </div>
-            <div className="net-avatar div19"> </div>
-            <div className="net-avatar div20"> </div>
-            <div className="net-avatar bnw div21" style={{backgroundImage: `url(${laura_url})`}}>
-              <div className="overlay">
-                Kubrick Data Scientist
-               </div>
-            </div>
-            <div className="net-avatar div22"> </div>
-            <div className="net-avatar div23"> </div>
-            <div className="net-avatar div24"> </div>
-            <div className="net-avatar div25"> </div>
-            <div className="net-avatar div26"> </div>
-            <div className="net-avatar div27"> </div>
-          </div>
-        </div>
-      </div>
+        {(isMobile) ? <NetworkMob/> : <NetworkDesktop/> }
       </div>
     )
   }

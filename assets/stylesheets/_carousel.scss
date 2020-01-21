@@ -47,13 +47,28 @@
   margin: 0 20px;
   display: flex;
   justify-content: space-around;
-  height: 400px;
+  height: 100px;
   margin: 20px 0px;
 
+}
+@media (min-width: 700px) {
+  .career-img-box {
+    height: 250px;
+  }
+}
+@media (min-width: 900px) {
+  .career-img-box {
+    height: 400px;
+  }
 }
 
 .career-img {
   max-height: 100%;
   max-width: 100%;
   object-fit: cover;
+}
+.careers-item {
+  text-align: center;
+
+
 }
