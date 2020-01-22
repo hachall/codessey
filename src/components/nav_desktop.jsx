@@ -35,6 +35,13 @@ class DesktopNav extends Component {
     }
   }
 
+  componentDidMount() {
+    $(document).scroll(function () {
+    var $nav = $(".desktop-nav");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+  }
+
   render() {
     const navbar_classes = (this.state.altstyle) ? "desktop-nav alt-nav-background" : "desktop-nav"
     let link_classes = "nav-link norm-colour borderLeftRight"

@@ -27,7 +27,7 @@
 .home-left {
   z-index: 100;
   width: 505px;
-  margin-left: 80px;
+  margin-left: 52px;
 }
 .home-right {
   position: absolute;
@@ -52,18 +52,27 @@
   z-index: -100;
   // object-fit: cover;
 }
-.home-title {
-  // z-index: 10;
-}
+
 .home-title-box {
   margin-bottom: 90px;
 }
 .home-title {
   color: #3e4478;
   font-weight: bold;
-  font-size: 63px;
+  font-size: 53px;
   line-height: 1.1;
 }
+
+@media (min-width: 400px) {
+  .home-left {
+    margin-left: 80px;
+  }
+  .home-title {
+    font-size: 63px;
+  }
+}
+
+
 .orange-bracket {
   color: #FB9B11;
   font-size: 70px;
