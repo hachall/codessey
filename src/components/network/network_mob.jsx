@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link} from 'react-router-dom';
 
-const hamish_url = "assets/images/tutoring_photo.jpg"
+const hamish_url = "https://codessey.s3.eu-west-2.amazonaws.com/tutors/tutoring_photo.jpg"
 const max_url = "https://codessey.s3.eu-west-2.amazonaws.com/tutors/78310544_1250018508521761_6671124086694871040_n.jpg"
 const mon_url = "https://codessey.s3.eu-west-2.amazonaws.com/tutors/maon.jpeg"
 const laura_url = "https://codessey.s3.eu-west-2.amazonaws.com/tutors/laura_photo.png"

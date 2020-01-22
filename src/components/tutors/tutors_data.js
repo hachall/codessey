@@ -25,7 +25,7 @@ const tutors_data = [
     },
     { name: "Laura",
       img_url: "https://codessey.s3.eu-west-2.amazonaws.com/tutors/laura_photo.png",
-      bio_text: "I have experience teaching at the world renowned coding bootcamp Le Wagon, mentoring at Hackathons, guiding machine learning masters and coaching young professionals who seek to advance their careers with new technical skills.",
+      bio_text: "After studying Biology at Oxford, I delved into a MSc in Human Evolution and Behaviour. In my final dissertation I explored the interaction between technology, behavioural science and healthcare to investigate the effect of questionnaire interface design on the disclosure of medical information. I am now training as a Data Scientist and hope to have a positive impact in resource-limited industries, such as in healthcare, through the application of data driven solutions.",
       education: [["2020", "Data Science", "Kubrick"], ["2018-2019", "MSc Human Evolution & Behaviour", "UCL"], ["2015-2018", "Biological Sciences", "University of Oxford"]],
       skills: [["Python", "TensorFlow", "R", "SQL", "PostgreSQL", "GitHub"]]
 
@@ -39,14 +39,14 @@ const tutors_data = [
     },
     { name: "Khalid",
       img_url: "https://codessey.s3.eu-west-2.amazonaws.com/tutors/0-2.jpeg",
-      bio_text: "",
+      bio_text: "I am fascinated by the power of computing in business & finance - and believe Python is an esssential part of the toolkit! As examples, you can build extensive analysis tools, automated trading bots, or incorporate machine learning to make sense of datasets with intricacies impossible to detect as a human. I am pursuing a career in the quantitave finance world, and look forward to helping aspiring tutees do the same!",
       education: [["2019-2020", "Economics and Strategy", "Imperial Business School"], ["2015-2018", "BSc Economics", "University of Bristol"]],
-      skills: [["Python", "C++", "Ruby", "Rails", "Javascript", "HTML", "CSS"]]
+      skills: [["Python", "Pandas", "TensorFlow", "R"]]
 
     },
     { name: "Angus",
       img_url: "https://codessey.s3.eu-west-2.amazonaws.com/tutors/83914361_118485969430893_234949726296866816_n.jpg",
-      bio_text: "",
+      bio_text: "After small amounts of Stata and Matlab use at undergrad, I decided to follow in the footsteps of my good friend (and boss) Hamish Hall to Le Wagon bootcamp. Here I picked up experience with web development before moving towards Data Science during my master’s programme. In addition, I tutor part-time with QUEST Tokyo and enjoy working with kids",
       education: [["2019-2020", "Economics and Strategy", "Imperial Business School"], ["2015-2018", "BSc Economics", "University of Bristol"]],
       skills: [["Python", "C++", "Ruby", "Rails", "Javascript", "HTML", "CSS"]]
 
