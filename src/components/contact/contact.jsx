@@ -92,7 +92,7 @@ class Contact extends Component {
 
     return (
       <div className="contact-page">
-        <div className="contact-box">
+        <div className="">
 
 
           <div className="mailbg">

@@ -18,7 +18,8 @@ const logos = {
   "AWS": "https://codessey.s3.eu-west-2.amazonaws.com/techs/1280px-Amazon_Web_Services_Logo.svg.png",
   "GCP": "https://codessey.s3.eu-west-2.amazonaws.com/techs/super_cloud.png",
   "Docker": "https://codessey.s3.eu-west-2.amazonaws.com/techs/vertical-logo-monochromatic.png",
-  "R": "https://codessey.s3.eu-west-2.amazonaws.com/techs/st%2Csmall%2C845x845-pad%2C1000x1000%2Cf8f8f8.u6.jpg"
+  "R": "https://codessey.s3.eu-west-2.amazonaws.com/techs/st%2Csmall%2C845x845-pad%2C1000x1000%2Cf8f8f8.u6.jpg",
+  "Stata": "https://codessey.s3.eu-west-2.amazonaws.com/techs/Unknown-9"
 
 }
 

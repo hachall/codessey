@@ -46,9 +46,9 @@ const tutors_data = [
     },
     { name: "Angus",
       img_url: "https://codessey.s3.eu-west-2.amazonaws.com/tutors/83914361_118485969430893_234949726296866816_n.jpg",
-      bio_text: "After small amounts of Stata and Matlab use at undergrad, I decided to follow in the footsteps of my good friend (and boss) Hamish Hall to Le Wagon bootcamp. Here I picked up experience with web development before moving towards Data Science during my master’s programme. In addition, I tutor part-time with QUEST Tokyo and enjoy working with kids",
+      bio_text: "After extensive experience using Stata and Matlab during my undergraduate Economics degree I realised the value and versatility of coding and enrolled in the Le Wagon programme. Here I picked up experience with Web Development before moving towards Data Science during my Master’s degree. I have experience tutoring with QUEST Tokyo and enjoy inspiring a genuine passion for coding in my students.",
       education: [["2019-2020", "Economics and Strategy", "Imperial Business School"], ["2015-2018", "BSc Economics", "University of Bristol"]],
-      skills: [["Python", "C++", "Ruby", "Rails", "Javascript", "HTML", "CSS"]]
+      skills: [["Python", "R", "MatLab", "Stata", "Ruby", "Rails", "HTML", "CSS"], ["SQL", "PostgreSQL", "GitHub"]]
 
     }
 
