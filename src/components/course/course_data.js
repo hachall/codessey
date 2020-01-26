@@ -2,19 +2,16 @@ const course = [
   { name: "Introduction",
     class_key: "1-lesson",
     description: `An introduction to python and its capabilities, and insight into the tools a python programmer uses,
-      all while configuring the student’s computer with the necessary software. An introduction to python and its capabilities,
-      and insight into the tools a python programmer uses,
-      all while configuring the student’s computer with the necessary software.`
+      all while configuring the student’s computer with the necessary software. `
   }, { name: "Python Data Types",
     class_key: "2-lesson",
-    description: `An introduction to python and its capabilities, and insight into the tools a python programmer uses,
-      all while configuring the student’s computer with the necessary software`
+    description: `This lesson covers the key data types in python, the differences between them and the actions that can be done on them. These data objects are the building blocks for coding anything!`
   },{ name: "Operations & Statements",
     class_key: "3-lesson",
-    description: `This lesson covers conditions, comparisons and loops to start configuring control and flow into your programmes`
+    description: `Discover conditions, comparisons and loops to start configuring control and flow into your programmes`
   }, { name: "Methods & Functions",
     class_key: "4-lesson",
-    description: `This lesson covers the key data types in python, the differences between them and the actions that can be done on them. These data objects are the building blocks for coding anything!`
+    description: `Now we can start compartmentalising our code into re-usable blocks, to build longer and more complicated programmes that are clean and readable. Writing our own functions starts to unlock the versatility of Python`
   },{ name: "Project I",
     class_key: "5-lesson",
     description: `We now have all the tools to start building functional programmes – in this lesson you plan and build a personal project`
